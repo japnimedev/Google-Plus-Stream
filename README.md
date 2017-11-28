@@ -1,10 +1,11 @@
 # Google-Plus-Stream
 > Stream video file using Google Plus
 
-Demo will be coming soon.
+The code can be modified by your skills, I'm just an average developer so goodluck! Here's the demo, [click me](https://japnimeserver.com/plus/index.php).
 
 ## Guide
-- Script is still in beta test
+- Method: Upload to google photos > Go to plus.google.com > Post using the image icon > Public it > Get the public url, format will be `https://plus.google.com/photos/photo/xxx/xxx`.
+- Script is still in beta performance, you can suggest from the Issues tab.
 - You can check the update logs [here](https://github.com/japnimedev/Google-Plus-Stream/blob/master/LOG.md).
 
 ## Contribution
