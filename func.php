@@ -19,6 +19,7 @@ function curl($url) {
  	curl_close($ch);
  	return $page;
 }
+
 function googleplus($link) {
  	$fetch = curl($link);
  	$varlow = explode('[18,640,360,"', $fetch);
