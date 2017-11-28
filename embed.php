@@ -1,7 +1,7 @@
 <?php  
 	error_reporting(0);
 	include "func.php";
-	$pluslink = 'https://plus.google.com/photos/photo/114603279038643369009/6493300016477276578?icm=false&iso=true&authkey=CLq2-63gotuGZg';
+	$pluslink = 'https://plus.google.com/photos/photo/114603279038643369009/6493300016477276578';
 ?>
 <!DOCTYPE html>
 <html lang="en">
