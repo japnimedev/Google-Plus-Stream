@@ -26,7 +26,7 @@ function googleplus($link) {
  	$datareslow = explode('\u003d', $varlow[1]);
  	$SD = urldecode($datareslow[0]);
  	$resSD = ''.$SD.'=m18';
- 	$varhigh = explode('[18,640,360,"', $fetch);
+ 	$varhigh = explode('[22,1280,720,"', $fetch);
  	$datareshigh = explode('\u003d', $varhigh[1]);
  	$HD = urldecode($datareshigh[0]);
  	$resHD = ''.$HD.'=m22';
