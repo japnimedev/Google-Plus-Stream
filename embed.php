@@ -2,6 +2,7 @@
 	error_reporting(0);
 	include "func.php";
 	$pluslink = 'https://plus.google.com/photos/photo/114603279038643369009/6493300016477276578';
+	$pdata = googleplus($pluslink);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +30,7 @@
 	<script>
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
-			sources: <?php googleplus($pluslink); ?>,
+			sources: <?php echo $pdata; ?>,
 			image: "",
 			width:"100%",
 			height:"100%",
