@@ -32,10 +32,10 @@ function googleplus($link) {
  	$resHD = ''.$HD.'=m22';
  	if($HD != '') {
  		$source = '[{"type": "video/mp4", "label": "HD", "file": "'.$resHD.'"}, {"type": "video/mp4", "label": "SD", "file": "'.$resSD.'"}]';
- 		echo $source;
+ 		return $source;
 	} else {
  		$source = '[{"type": "video/mp4", "label": "SD", "file": "'.$resSD.'"}]';
- 		echo $source;
+ 		return $source;
 	}
 }
 ?>
