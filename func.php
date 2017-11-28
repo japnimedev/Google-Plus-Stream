@@ -30,7 +30,7 @@ function googleplus($link) {
  	$datareshigh = explode('\u003d', $varhigh[1]);
  	$HD = urldecode($datareshigh[0]);
  	$resHD = ''.$HD.'=m22';
- 	if($resHD != '') {
+ 	if($HD != '') {
  		$source = '[{"type": "video/mp4", "label": "HD", "file": "'.$resHD.'"}, {"type": "video/mp4", "label": "SD", "file": "'.$resSD.'"}]';
  		echo $source;
 	} else {
